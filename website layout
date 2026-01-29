@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+	 border-radius: 10px;
+
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 20px;
+    }
+    .card {
+      flex: 1;
+      min-width: 200px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>My Website</h1>
+  </div>
+  <div class="content">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>This is a responsive card using divs and CSS Flexbox.</p>
+    </div>
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Each card takes up equal space and wraps on smaller screens.</p>
+    </div>
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Perfect for creating modern, flexible layouts.</p>
+    </div>
+  </div>
+
+<div class="content">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>This is a responsive card using divs and CSS Flexbox.</p>
+    </div>
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Each card takes up equal space and wraps on smaller screens.</p>
+    </div>
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Perfect for creating modern, flexible layouts.</p>
+    </div>
+  </div>
+
+</body>
+</html>   
